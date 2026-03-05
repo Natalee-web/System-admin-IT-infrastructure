@@ -7,13 +7,14 @@ Apache HTTP Server (v2.4): The primary service responsible for listening on Port
 XAMPP Control Panel: The management interface used to initialize and monitor the Apache daemon.
 
 Localhost (127.0.0.1): The loopback address used to access the server locally via a web browser.
-Project Structure
-The server is configured to point to a specific subdirectory within the XAMPP htdocs folder to maintain organization.
 C:/xampp/htdocs/
-└── my_local_server/          # Project Root
-    ├── index.html            # Main entry point (Landing Page)
-    └── assets/               # Directory for CSS, JS, and Images
-    Step-by-Step Implementation
+└── my_local_server/             # Project Root Folder
+    ├── index.html               # Main Landing Page (Entry Point)
+    ├── assets/                  # Static Resources Folder
+    │   ├── css/                 # Custom Stylesheets (style.css)
+    │   ├── js/                  # JavaScript Logic (script.js)
+    │   └── images/              # Logos and Graphics
+    └── logs/                    # Folder for server error/access logs
 1. Installation & Service Start
 Installed the XAMPP stack for Windows.
 
