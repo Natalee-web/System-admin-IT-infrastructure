@@ -1,4 +1,6 @@
 Local Web Server Setup (Apache via XAMPP)
+
+---
 Project Description
 This project demonstrates the manual setup of a local Apache web server on a Windows environment. It covers service initialization, directory configuration, and the deployment of a custom HTML landing page. This setup is a foundational task for understanding how web servers handle HTTP requests and serve files from a local DocumentRoot.
 Services Configured
@@ -8,13 +10,13 @@ XAMPP Control Panel: The management interface used to initialize and monitor the
 
 Localhost (127.0.0.1): The loopback address used to access the server locally via a web browser.
 C:/xampp/htdocs/
-└── my_local_server/             # Project Root Folder
-    ├── index.html               # Main Landing Page (Entry Point)
-    ├── assets/                  # Static Resources Folder
-    │   ├── css/                 # Custom Stylesheets (style.css)
-    │   ├── js/                  # JavaScript Logic (script.js)
-    │   └── images/              # Logos and Graphics
-    └── logs/                    # Folder for server error/access logs
+└── my_local_server/            
+    ├── index.html               
+    ├── assets/                  
+    │   ├── css/                 
+    │   ├── js/                  
+    │   └── images/             
+    └── logs/                   
 1. Installation & Service Start
 Installed the XAMPP stack for Windows.
 
